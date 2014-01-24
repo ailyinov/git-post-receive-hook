@@ -41,7 +41,7 @@ if ($deploy) {
     write_log([$payload, $shell->getCommands(), $out]);
 }
 
-send_mail_html($payload, 'a.ilynov@pho.to, zverev@vicman.net');
+send_mail_html($payload, 'devmail@mailserv.com, devmail2@mailserv.com');
 return 0;
 
 

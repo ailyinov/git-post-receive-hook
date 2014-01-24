@@ -6,8 +6,8 @@ use Shell;
 
 class Api extends Deploy
 {
-    const DIR = 'tweetApi/';
-    const REPO = 'tweetApi';
+    const DIR = 'api/';
+    const REPO = 'api';
 
     public function run(Shell $shell) {
         $branchDir = self::BASEDIR . static::DIR . $this->branchName;

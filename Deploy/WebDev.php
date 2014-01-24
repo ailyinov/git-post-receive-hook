@@ -7,8 +7,8 @@ use Shell;
 
 class WebDev extends Deploy
 {
-    const DIR = 'tweetWeb/';
-    const REPO = 'tweetWeb';
+    const DIR = 'web';
+    const REPO = 'web';
 
     public function run(Shell $shell) {
         $branchDir = self::BASEDIR . static::DIR . $this->branchName;
